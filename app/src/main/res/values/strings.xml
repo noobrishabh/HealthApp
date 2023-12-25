@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">HealthApp</string>
+
+
+    <!--TODO (Step 6: Add all the string values here.)-->
+    <!--START-->
+    <string name="image_contentDescription">image</string>
+    <string name="let_s_get_started_text">Let\'s Get started</string>
+    <string name="intro_text_description">Built Better Health.</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <!--END-->
+    <string name="back">BACK</string>
+
+    <string name="sign_up_description_text">Enter your name, email id and password, to register with us.</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="article">Title: "Holistic Health: Nurturing Your Body, Mind, and Spirit"
+
+Introduction:
+In a fast-paced world where our lives are often consumed by hectic schedules and constant digital connectivity, the importance of maintaining good health cannot be overstated. Health is not merely the absence of illness; it\'s a state of complete physical, mental, and social well-being. This article explores the concept of holistic health, emphasizing the interconnectedness of the body, mind, and spirit, and providing practical tips for achieving a balanced and healthy lifestyle.
+
+Body: The Foundation of Holistic Health
+Nutrition: Fueling Your Body
+
+Discuss the significance of a balanced diet rich in nutrients.
+Highlight the importance of staying hydrated.
+Encourage a focus on whole foods and a variety of fruits and vegetables.
+Physical Activity: Exercise for Vitality
+
+Explore the benefits of regular exercise for physical health.
+Emphasize the importance of finding enjoyable activities to maintain consistency.
+Suggest incorporating a mix of cardiovascular, strength, and flexibility exercises.
+Quality Sleep: Restorative Power
+
+Examine the role of sleep in overall health and well-being.
+Provide tips for improving sleep hygiene, such as maintaining a consistent sleep schedule and creating a relaxing bedtime routine.
+Mind: Cultivating Mental Well-being
+Stress Management: Finding Balance
+
+Discuss the impact of chronic stress on physical health.
+Introduce stress-reduction techniques, such as mindfulness, meditation, and deep breathing exercises.
+Intellectual Stimulation: Nourishing the Mind
+
+Advocate for lifelong learning and engagement in intellectually stimulating activities.
+Highlight the importance of hobbies, reading, and staying curious to promote cognitive health.
+Emotional Wellness: Connecting with Feelings
+
+Encourage open communication about emotions and the importance of seeking support when needed.
+Explore the benefits of practices like journaling, therapy, or talking with friends and family.</string>
+
+
+    <string name="sign_in_description_text">Enter your email id and password, to Sign in.</string>
+
+    <!--TODO (Step 6: Add all the string values here.)-->
+    <string name="please_click_back_again_to_exit">Please click back again to exit.</string>
+    <string name="please_wait">Please Wait&#8230;</string>
+
+    <!--TODO (Step 9: All the string values are added here.)-->
+    <!--START-->
+    <string name="nav_my_profile">My Profile</string>
+    <string name="nav_sign_out">Sign Out</string>
+    <!--END-->
+    <!--TODO (Step 6: All dimen values are added here.)-->
+    <!--START-->
+    <string name="mobile">Mobile</string>
+    <string name="update">UPDATE</string>
+    <string name="my_profile">My Profile</string>
+    <!--END-->
+    <string name="task">Reminder</string>
+    <string name="create_tasks">Create Reminder</string>
+    <string name="title">Title</string>
+    <string name="data">data</string>
+    <string name="timer">timer</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_task">New Reminder</string>
+    <string name="to_edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="empty_text">Ops! No Reminder Available</string>
+
+    <string name="default_notification_channel_id">projemanag_notification_channel_id</string>
+    <string name="image">Start Image</string>
+
+</resources>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical"
+    tools:context=".activities.DoctorsActivity">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_back_doc_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/back"
+            android:textColor="@color/primary_text_color"
+            android:textSize="@dimen/toolbar_title_text_size"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_splash_background"
+        android:orientation="vertical">
+
+        <!-- Entry 1 -->
+        <TextView
+            android:id="@+id/serialNumber1"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/doctorName1"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Jhanvi (NSMCH)" />
+
+        <TextView
+            android:id="@+id/specialization1"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gynaecologist" />
+
+        <TextView
+            android:id="@+id/dayOfVisit1"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:text="Monday" />
+
+        <TextView
+            android:id="@+id/timings1"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:padding="4dp"
+            android:layout_height="wrap_content"
+            android:text="12:30 PM" />
+
+        <!-- Entry 2 -->
+        <TextView
+            android:id="@+id/serialNumber2"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <TextView
+            android:id="@+id/doctorName2"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Rahul Raj Divedi" />
+
+        <TextView
+            android:id="@+id/specialization2"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dentist" />
+
+        <TextView
+            android:id="@+id/dayOfVisit2"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday" />
+
+        <TextView
+            android:id="@+id/timings2"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="03:00 PM" />
+
+        <!-- Repeat similar structure for other entries -->
+        <!-- Entry 3 -->
+        <TextView
+            android:id="@+id/serialNumber3"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+        <TextView
+            android:id="@+id/doctorName3"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Jyotsna Kashyap" />
+
+        <TextView
+            android:id="@+id/specialization3"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MS Gynecologist" />
+
+        <TextView
+            android:id="@+id/dayOfVisit3"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday" />
+
+        <TextView
+            android:id="@+id/timings3"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:30 AM" />
+
+        <!-- Entry 4 -->
+        <TextView
+            android:id="@+id/serialNumber4"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+        <TextView
+            android:id="@+id/doctorName4"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Ashwin Gaurav (NSMCH)" />
+
+        <TextView
+            android:id="@+id/specialization4"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MS. Orthopedic" />
+
+        <TextView
+            android:id="@+id/dayOfVisit4"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tuesday" />
+
+        <TextView
+            android:id="@+id/timings4"
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="12:00 PM" />
+
+        <!-- Entry 5 -->
+        <TextView
+            android:id="@+id/serialNumber5"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+
+        <TextView
+            android:id="@+id/doctorName5"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Abhishek Kumar" />
+
+        <TextView
+            android:id="@+id/specialization5"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MD Medicine" />
+
+        <TextView
+            android:id="@+id/dayOfVisit5"
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="Tuesday" />
+
+        <TextView
+            android:id="@+id/timings5"
+            android:layout_width="wrap_content"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:text="02:30 PM" />
+
+
+
+
+</LinearLayout>
+</LinearLayout>

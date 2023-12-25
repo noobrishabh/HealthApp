@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_finish_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/white"
+
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="END"
+        android:textSize="35sp"
+        android:layout_marginTop="120dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/item_circular_color_accent_border"
+        android:gravity="center" >
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_done" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Congratulation!"
+        android:layout_marginTop="20dp"
+        android:textSize="22sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="You have done the workout!"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cornerRadius="5dp"
+        android:text="FINISH"
+        android:textSize="20dp"/>
+</LinearLayout>
